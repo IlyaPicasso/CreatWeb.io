@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap&subset=cyrillic-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    height: auto;
+    background: #fff;
+    justify-content: center;
+}
+
+.nav_wrap {
+    width: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 784px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 240px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height: 65px;
+}
+
+.logo span:nth-child(2) {
+    color: red;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_i {
+    font-size: 18px;
+    font-weight: 700;
+    color: #605E5E;
+}
+
+#wrap {
+    width: 740px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 65px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    background-position: fixed;
+    background-image: url('../img/banner.webp');
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(49, 3, 255, 0.322);
+}
+
+.banner .text_b {
+    z-index: 11;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 0.1em;
+}
+
+.banner p {
+    color: #fff;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.banner div {
+    margin-top: 30px;
+}
+
+.banner .btn {
+    margin: 0 auto;
+}
+
+.btn {
+    background: rgba(241, 104, 118, 1);
+    font-size: 1.2em;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    align-items: center;
+}
+
+.btn:hover {
+    background: rgba(39, 59, 123, 1);
+}
